@@ -1,0 +1,150 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+:root {
+
+    
+--soft-red: hsl(7, 99%, 70%);
+--yellow: hsl(51, 100%, 49%);
+--dark-desaturated-cyan: hsl(167, 40%, 24%);
+--dark-blue: hsl(198, 62%, 26%);
+--dark-moderate-cyan: hsl(168, 34%, 41%);
+
+--very-dark-desaturated-blue: hsl(212, 27%, 19%);
+--very-dark-grayish-blue: hsl(213, 9%, 39%);
+--dark-grayish-blue: hsl(232, 10%, 55%);
+--grayish-blue: hsl(210, 4%, 67%);
+--white: hsl(0, 0%, 100%);
+
+
+font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.angry-grid {
+   display: grid; 
+
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+   gap: 0px;
+   height: 100%;
+   
+}
+  
+#item-0 {
+
+   background-color: #9ABDB9; 
+   grid-row-start: 2;
+   grid-column-start: 1;
+
+   grid-row-end: 3;
+   grid-column-end: 3;
+   
+}
+#item-1 {
+
+   background-color: #87CF68; 
+   grid-row-start: 3;
+   grid-column-start: 1;
+
+   grid-row-end: 4;
+   grid-column-end: 3;
+   
+}
+#item-2 {
+
+   background-color: #F5A97B; 
+   grid-row-start: 4;
+   grid-column-start: 1;
+
+   grid-row-end: 5;
+   grid-column-end: 3;
+   
+}
+#item-3 {
+
+   background-color: #77CA8B; 
+   grid-row-start: 2;
+   grid-column-start: 3;
+
+   grid-row-end: 3;
+   grid-column-end: 5;
+   
+}
+#item-4 {
+
+   background-color: #D6B5CF; 
+   grid-row-start: 3;
+   grid-column-start: 3;
+
+   grid-row-end: 4;
+   grid-column-end: 5;
+   
+}
+#item-5 {
+
+   background-color: #A7867C; 
+   grid-row-start: 4;
+   grid-column-start: 3;
+
+   grid-row-end: 5;
+   grid-column-end: 5;
+   
+}
+#item-6 {
+
+   background-color: #ADBC79; 
+   grid-row-start: 6;
+   grid-column-start: 1;
+
+   grid-row-end: 7;
+   grid-column-end: 2;
+   
+}
+#item-7 {
+
+   background-color: #69B585; 
+   grid-row-start: 6;
+   grid-column-start: 2;
+
+   grid-row-end: 7;
+   grid-column-end: 3;
+   
+}
+#item-8 {
+
+   background-color: #55B9AE; 
+   grid-row-start: 6;
+   grid-column-start: 3;
+
+   grid-row-end: 7;
+   grid-column-end: 4;
+   
+}
+#item-9 {
+
+   background-color: #9957C8; 
+   grid-row-start: 6;
+   grid-column-start: 4;
+
+   grid-row-end: 7;
+   grid-column-end: 5;
+   
+}
+
+

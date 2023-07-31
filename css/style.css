@@ -33,6 +33,15 @@ font-family: 'Fraunces', serif;
    
    background-image: url("../images/mobile/image-header.jpg");
    padding: 1.5rem;
+  
+}
+
+.header__wrap {
+   display: flex;
+   justify-content: space-between;
+}
+.nav--burger {
+   display: none;
 }
 
 .header__title {

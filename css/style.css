@@ -23,8 +23,15 @@ font-family: 'Fraunces', serif;
 
 
 
+.body {
+   font-size: 18px;
+   max-width: 425px;
+   
+}
 
-
+.header {
+   background-image: url("../images/mobile/image-header.jpg");
+}
 
 
 
